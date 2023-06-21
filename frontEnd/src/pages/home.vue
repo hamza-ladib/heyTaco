@@ -1,5 +1,5 @@
 <template>
-  <div class="p-4 w-full flex flex-col gap-2">
+  <div class="p-4 w-full flex flex-col gap-2 overflow-x-hidden">
     <div>
       <Header />
     </div>
@@ -47,7 +47,7 @@
       </section>
       <!-----  section 2 -->
       <section
-        class="p-2 pt-4 flex flex-col justify-between items-center w-full h-full bg-rose-100"
+        class="p-2 pt-4 flex flex-col justify-between items-center w-full h-full "
       >
         <div class="w-full p-4">
           <p class="font-poppins text-center text-2xl p-2">
@@ -90,7 +90,7 @@
       </section>
       <!-----  section 3-->
       <section
-        class="p-2 pt-5 flex flex-col justify-between items-center w-full h-full bg-amber-100"
+        class="p-2 pt-5 flex flex-col justify-between items-center w-full h-full "
       >
         <div class="flex items-center w-full justify-center gap-2">
           <div class="md:w-1/2 w-full p-5">
@@ -129,7 +129,7 @@
       </section>
       <!-----  section 4-->
       <section
-        class="p-2 pt-5 flex flex-col justify-between items-center w-full h-full bg-amber-100"
+        class="p-2 pt-5 flex flex-col justify-between items-center w-full h-full"
       >
         <div class="flex items-center w-full justify-center gap-2">
           <div class="md:w-1/2 w-full p-5">
@@ -247,7 +247,7 @@
       </section>
         <!-----  section 5-->
         <section
-        class="p-2 pt-5 flex flex-col justify-between items-center w-full h-full bg-amber-100">
+        class="p-2 pt-5 flex flex-col justify-between items-center w-full h-full">
       <div class="flex items-center w-full justify-center gap-2">
           <div class="md:w-1/2 w-full p-5 font-poppins flex flex-col gap-4 ">
             <div class="font-poppins md:text-5xl text-2xl">Award-winning Employee Engagement and Employee Recognition app</div>
@@ -268,7 +268,7 @@
       </section>
        <!-----  section 6-->
        <section
-        class="p-2 pt-5 flex flex-col justify-between items-center w-full h-full bg-amber-100">
+        class="box p-2 pt-5 flex flex-col justify-between items-center w-full h-full ">
       <div class="flex items-center w-full justify-center gap-2">
           <div class="md:w-1/2 w-full p-5 font-poppins flex flex-col gap-4 ">
             <div class="font-poppins  text-3xl">Supercharge engagement with gamification</div>
@@ -276,7 +276,7 @@
             </div>
             </div>
       <div class="flex items-center w-full justify-center gap-2">
-          <div v-if="loaded" class="md:w-1/2 w-full p-5 font-poppins flex  flex-wrap gap-4 bg-white  shadow-xl  rounded-lg ">
+          <div v-if="loaded" class=" md:w-1/2 w-full p-5 font-poppins flex  flex-wrap gap-4 bg-white  shadow-xl  rounded-lg ">
              <!--- head table --->
              <div class="w-full bg-white font-poppins flex justify-between items-center  p-2 ">
                 <div class="text-xl  dont-bold ">Leader Board</div>
@@ -347,13 +347,145 @@
                       </tr>    
                   </table>
               </div>
+            
+           </div>
+           
+            </div>
+            <div class="flex items-center w-full justify-center gap-2 py-4 ">
+          <div class="md:w-1/2 w-full py-5 font-poppins flex flex-col gap-4 ">
+            <div class="font-poppins  md:text-4xl text-2xl text-center">Transform your team with Giver Mode ✨</div>
+            <p class="font-medium font-poppins text-lg px-2">Giver Mode helps cultivate a <span class="font-bold ">giving-minded team </span>by focusing on your givers. When enabled, only the taco-giving leaderboard is visible.</p>
+            </div>
+            </div>
+            <div class="w-full p-3 flex iems-center justify-center gap-4">
+            <button
+              class=" hover:translate-x-2 font-raleway font-bold px-7 ring-slate-400 ring hover:opacity-80 transition-all duration-300 bg-[#fee471] p-3 rounded-full"
+            >
+              try hey Taco for free
+            </button>
+            <button
+              class=" hover:translate-x-2 font-raleway font-bold px-3 ring ring-black outline-none hover:bg-slate-200 transition-all duration-300 p-2 rounded-full"
+            >
+              watch demo
+            </button>
+          </div>
+      </section>
+       <!-----  section 7-->
+       <section
+        class="p-2 pt-5 flex flex-col justify-between items-center w-full h-full   ">
+      <div class="flex items-center w-full justify-center gap-2 ">
+          <div class="md:w-1/2 w-full p-5 font-poppins flex flex-col gap-4 ">
+            <div class="font-poppins md:text-5xl text-2xl text-center">Unlock powerful insights and bring values to life</div>
+            <p class="font-medium font-poppins text-base text-center ">HeyTaco's<span class="font-bold"> Open Tagging System</span> allows you to track tacos tagged with custom values, initiatives, or anything else you can think of.</p>
+            </div>
+            </div>
+      <div class="flex items-center w-full justify-center gap-2 p-10">
+          <div class="md:w-1/2 w-full  font-poppins flex  flex-wrap gap-4 justify-center items-center p-16 py-32    relative">
+         <div class="font-poppins  text-2xl font-bold p-4 flex items-center justify-center  bg-white shadow-xl rounded-tl-lg rounded-br-lg absolute top-0 right-0
+         after:absolute after:w-0  after:aspect-square  after:bg-transparent after:top-full after:rotate-[180deg] after:left-0    after:border-r-[100px] after:border-t-[140px] after:border-transparent  after:border-r-[#a4a4a4] after:opacity-20 
+         ">#tacotastic</div>
+         <div class="font-poppins  text-2xl font-bold p-4 flex items-center justify-center  bg-white shadow-xl rounded-tl-lg rounded-br-lg absolute top-0 left-0 -rotate-45 
+         after:absolute after:w-0  after:aspect-square  after:bg-transparent after:top-full after:rotate-[180deg] after:left-0    after:border-r-[100px] after:border-t-[140px] after:border-transparent  after:border-r-[#a4a4a4] after:opacity-20 
+         ">#taconaut</div>
+         <div>
+          <Message
+              img="../assets/avatar3.gif"
+              name="Felix"
+              text=" Thanks Ned for your #tacotastic leadership and always going the extra mile!  "
+            />
+         </div>
+         <div class="font-poppins  text-2xl font-bold p-4 flex items-center justify-center  bg-white shadow-xl rounded-tl-lg rounded-br-lg absolute bottom-0
+         after:absolute after:w-0  after:aspect-square  after:bg-transparent after:bottom-full   after:rotate-[360deg] after:left-1/2 after:-translate-x-1/2    after:border-r-[100px] after:border-t-[140px] after:border-transparent  after:border-r-[#a4a4a4] after:opacity-20 
+         ">#thankful</div>
            </div>
             </div>
-
-
-
-
-
+      </section>
+       <!-----  section8-->
+       <section
+        class="p-2 pt-5 flex flex-col justify-between items-center w-full h-full bg-white">
+      <div class="flex items-center w-full justify-center gap-2">
+          <div class="md:w-1/2 w-full p-5 font-poppins flex flex-col gap-4 ">
+            <div class="font-poppins md:text-5xl text-2xl">Custom-tailored rewards your team will love 💝</div>
+            <p class="font-medium font-poppins text-base ">Just like your team, rewards should be <span class="font-bold">special and unique</span>. With HeyTaco, you can create meaningful rewards that are custom-built for your team.</p>
+            </div>
+            </div>
+      <div class="flex items-center w-full justify-center gap-2">
+          <div class=" w-full p-5 font-poppins flex flex-wrap  items-center justify-center gap-4 ">
+              <img class="w-52" src="../assets/logo_shirt.jpg"/>
+              <img class="w-52" src="../assets/team-highfive.jpg"/>
+              <img class="w-52" src="../assets/charity.jpg"/>
+           </div>
+            </div>
+      </section>
+       <!-----  section 9 -->
+       <section
+        class="p-2 pt-5 flex flex-col justify-between items-center w-full h-full  ">
+      <div class="flex items-center w-full justify-center gap-2">
+          <div class="md:w-1/2 w-full p-5 font-poppins flex flex-col gap-4 ">
+            <div class="font-poppins md:text-5xl text-2xl">How much can HeyTaco save you on staff turnover?</div>
+            <p class="font-medium font-poppins text-base ">Companies using HeyTaco report that<span class="font-bold">83% of their people feel appreciated.</span>HeyTaco helps create recognition-rich cultures that retain employees and reduce turnover costs.</p>
+            </div>
+            </div>
+      <div class="flex items-center w-full justify-center gap-2">
+          <div class=" md:w-1/2 w-full p-5 font-poppins flex flex-wrap bg-white rouded-lg shadow-lg  items-center justify-center gap-4 ">
+              <div class=" w-full flex gap-4 justify-center items-center ">
+                <span class="font-bold font-poppins text-3xl">HeyTaco can reduce turnover by 26%</span> 
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M11.25 11.25l.041-.02a.75.75 0 011.063.852l-.708 2.836a.75.75 0 001.063.853l.041-.021M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9-3.75h.008v.008H12V8.25z" />
+                </svg>
+              </div>
+              <div class="w-full h-fit    flex items-center justify-center">
+                <div class="p-2  flex flex-col gap-2 items-center justify-center relative">
+                   <div class=" p-1 font-bold font-xl text-center">Employees</div>
+                <div class="w-28"><input v-model="employees" class="outline-none p-2 w-28 rounded-lg bg-transparent font-poppins text-lg text-center ring ring-slate-600 shadow-xl" type="number" @input="inputing"  pattern="/^-?\d+\.?\d*$/" /></div>
+                <div class="try z-3 w-10 h-10 bg-red-500  absolute flex justify-center items-center  top-0 -translate-x-full rounded-full -translate-y-1/2 left-0 p-4 text-white font-poppins font-bold ">try</div>
+              </div>
+              <div class="w-full  flex items-center    h-full p-2">
+                <div class="w-full h-6 rounded-xl bg-gradient-to-r from-green-500 to-green-300 relative">
+                  <div :class="` c absolute h-7 aspect-square bg-green-800  top-1/2 -translate-y-1/2  rounded-full`"></div>
+                </div>
+               
+              </div>
+             
+      
+              </div>
+              <div class="w-full   flex flex-wrap items-center gap-4 justify-center">
+                  <div class=" rounded-lg p-4 flex flex-col gap-2 justify-center items-center  shadow-xl w-52 bg-[#cfd5db]">
+                      <div class="w-full  flex justify-end ">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M11.25 11.25l.041-.02a.75.75 0 011.063.852l-.708 2.836a.75.75 0 001.063.853l.041-.021M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9-3.75h.008v.008H12V8.25z" />
+                </svg>                     
+                   </div>  
+                             
+                      <div class="w-full font-light p-2 text-2xl text-center">Investment return</div>           
+                      <div class="w-full font-roboto p-2 text-center text-xl transition-all duration-300 text-green-500 ">$ {{ employees>=100?1283:1219}} %</div>           
+                  </div>
+                  <div class=" rounded-lg p-4 flex flex-col gap-2 justify-center items-center  shadow-xl w-52 bg-[#cfd5db]">
+                     <div class="w-full  flex justify-end ">
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M11.25 11.25l.041-.02a.75.75 0 011.063.852l-.708 2.836a.75.75 0 001.063.853l.041-.021M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9-3.75h.008v.008H12V8.25z" />
+                </svg>
+                      </div>
+                     <div class="w-full font-light p-2 text-2xl text-center">You save per year</div>
+                     <div class="w-full font-roboto p-2 text-center text-xl transition-all duration-300 ">$ {{ employees* save}}</div>
+                  </div>
+                  <div class=" rounded-lg p-4 flex flex-col gap-2 justify-center items-center  shadow-xl w-52 bg-[#cfd5db]">
+                       <div class="w-full  flex justify-end ">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M11.25 11.25l.041-.02a.75.75 0 011.063.852l-.708 2.836a.75.75 0 001.063.853l.041-.021M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9-3.75h.008v.008H12V8.25z" />
+                </svg>
+                       </div>
+                       <div class="w-full font-light p-2 text-2xl text-center">HeyTaco per year</div>
+                       <div class="w-full font-roboto p-2 text-center text-xl transition-all duration-300 ">$ {{ employees* HeyTaco}}</div>
+                  </div>
+                </div>
+                <div class="w-full flex justify-start gap-2 p-4">
+                  Based on estimated <span class="font-bold ">$ {{ employees>=100?(1283+employees*HeyTaco+employees*save):(1219+employees*HeyTaco+employees*save)}}</span> staff turnover cost  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M11.25 11.25l.041-.02a.75.75 0 011.063.852l-.708 2.836a.75.75 0 001.063.853l.041-.021M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9-3.75h.008v.008H12V8.25z" />
+                </svg>
+                </div>
+           </div>
+            </div>
       </section>
     </div>
   </div>
@@ -361,11 +493,33 @@
 <script setup>
 import Header from "../components/header.vue";
 import Message from "../components/message.vue";
-import {ref,onMounted} from 'vue'
+import {ref,onMounted,watch} from 'vue'
+import {gsap} from 'gsap'
+import { CSSPlugin } from 'gsap/CSSPlugin'
+import ScrollTrigger from "gsap/ScrollTrigger";
 let tacos = ref("Tacos received");
 let show=ref(false);
 let treaders=ref([]);
+let employees=ref(0);
+let bar=ref(0);
 let loaded=ref(false);
+let investement=ref(1219);
+let save=ref(473);
+let HeyTaco=ref(36);
+
+  gsap.registerPlugin(CSSPlugin);
+  gsap.registerPlugin(ScrollTrigger);
+
+
+watch(employees,()=>{
+  bar.value=(employees.value/1060)*100;
+  gsap.to('.c',0.4,{
+    left:bar.value+"%",
+
+  })
+
+ 
+})
 onMounted(async()=>{
  treaders.value= [
   {
@@ -409,9 +563,39 @@ onMounted(async()=>{
     given :12,
     received:25,
     img: await import(  /* @vite-ignore */"../assets/"+"lars"+".gif").then(data=>data.default),
-  },]
+  },];
+  /********** */
+
+ /******* */
 loaded.value=true;
+let allSections= document.querySelectorAll('section');
+for(let i=0 ;i<allSections.length;i++) {
+  let section=allSections[i];
+if(i%2==0) gsap.set(section,{xPercent:100})
+else gsap.set(section,{xPercent:-100})
+
+gsap.to(section,.5, {
+    xPercent:0,
+  scrollTrigger: {
+      trigger: section,
+      /* pin: true, */   // pin the trigger element while active
+      start: "top bottom", // when the top of the trigger hits the top of the viewport
+      end: "top top ", // end after scrolling 500px beyond the start
+      scrub: 0.2, // smooth scrubbing, takes 1 second to "catch up" to the scrollbar
+    /*   markers:true, */
+      
+     /*  snap: {
+        snapTo: "labels", // snap to the closest label in the timeline
+        duration: {min: 0.2, max: 3}, // the snap animation should be at least 0.2 seconds, but no more than 3 seconds (determined by velocity)
+        delay: 0.2, // wait 0.2 seconds from the last scroll event before doing the snapping
+        ease: "power1.inOut" // the ease of the snap animation ("power3" by default)
+      } */
+    }
+  })
+
+}
 })
+let inputing=()=>{employees.value=(employees.value>1000)?1000:employees.value;}
 </script>
 <style scoped>
 .try::before,.try::after{
